@@ -1,29 +1,41 @@
-Overview
+📌 Overview
 
-This portfolio was built to demonstrate strong frontend development skills, modern UI/UX design principles, and the ability to create engaging, interactive web applications. Instead of a traditional scrolling website, users interact with a simulated macOS desktop environment, including a dock, windows, and applications.
+This project demonstrates my ability to:
 
-The project emphasizes component-based architecture, animation, state management, and responsive design.
+Build modern React applications
 
-Features
+Design engaging UI/UX experiences
 
-macOS-style desktop interface
+Implement animation-heavy interfaces
 
-Interactive dock with application icons
+Structure scalable, maintainable frontend architecture
 
-Window management system (open, close, focus)
+Translate real-world interfaces into functional web applications
 
-Multiple application windows (Finder, Safari, Terminal, Resume, Contact)
+Instead of a standard portfolio layout, users interact with a simulated macOS desktop, including:
 
-Smooth animations and transitions
+🖥 Dock navigation
 
-Responsive design for different screen sizes
+🗂 Finder-style windows
 
-Resume viewer integration
+🌐 Safari-like project viewer
 
-Clean and modular component structure
+💻 Terminal interface
 
-Tech Stack
+📄 Resume viewer
 
+✨ Key Features
+
+✔ macOS-inspired desktop interface
+✔ Interactive dock with hover animations
+✔ Window management system (open, close, focus, layering)
+✔ Smooth GSAP-powered animations
+✔ Component-based architecture
+✔ Responsive layout
+✔ Resume PDF integration
+✔ Clean and modular file structure
+
+🛠 Tech Stack
 Frontend
 
 React
@@ -42,25 +54,27 @@ Zustand (state management)
 
 React PDF
 
-Lucide React Icons
+Lucide Icons
 
-What This Project Demonstrates
+🧠 Technical Skills Demonstrated
 
-This project highlights my ability to:
+This project highlights:
 
-Build modern React applications
+Component-driven development
 
-Design creative and user-friendly interfaces
+State management with Zustand
 
-Manage application state effectively
+Advanced animation control
 
-Implement animations and interactive UI elements
+UI layering and window stacking logic
 
-Structure scalable and maintainable frontend code
+Reusable component patterns
 
-Translate real-world interfaces into web applications
+Modern CSS styling with Tailwind
 
-Project Structure
+Performance-conscious frontend design
+
+📂 Project Structure
 src/
  ├── components/
  ├── apps/
@@ -69,10 +83,7 @@ src/
  ├── App.jsx
  └── main.jsx
 
-Installation
-
-To run locally:
-
+⚙️ Installation
 git clone https://github.com/yourusername/macos-portfolio.git
 cd macos-portfolio
 npm install
