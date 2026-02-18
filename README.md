@@ -1,90 +1,16 @@
-📌 Overview
+# React + Vite
 
-This project demonstrates my ability to:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Build modern React applications
+Currently, two official plugins are available:
 
-Design engaging UI/UX experiences
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Implement animation-heavy interfaces
+## React Compiler
 
-Structure scalable, maintainable frontend architecture
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Translate real-world interfaces into functional web applications
+## Expanding the ESLint configuration
 
-Instead of a standard portfolio layout, users interact with a simulated macOS desktop, including:
-
-🖥 Dock navigation
-
-🗂 Finder-style windows
-
-🌐 Safari-like project viewer
-
-💻 Terminal interface
-
-📄 Resume viewer
-
-✨ Key Features
-
-✔ macOS-inspired desktop interface
-✔ Interactive dock with hover animations
-✔ Window management system (open, close, focus, layering)
-✔ Smooth GSAP-powered animations
-✔ Component-based architecture
-✔ Responsive layout
-✔ Resume PDF integration
-✔ Clean and modular file structure
-
-🛠 Tech Stack
-Frontend
-
-React
-
-Vite
-
-Tailwind CSS
-
-JavaScript (ES6+)
-
-Libraries & Tools
-
-GSAP (animations)
-
-Zustand (state management)
-
-React PDF
-
-Lucide Icons
-
-🧠 Technical Skills Demonstrated
-
-This project highlights:
-
-Component-driven development
-
-State management with Zustand
-
-Advanced animation control
-
-UI layering and window stacking logic
-
-Reusable component patterns
-
-Modern CSS styling with Tailwind
-
-Performance-conscious frontend design
-
-📂 Project Structure
-src/
- ├── components/
- ├── apps/
- ├── store/
- ├── assets/
- ├── App.jsx
- └── main.jsx
-
-⚙️ Installation
-git clone https://github.com/yourusername/macos-portfolio.git
-cd macos-portfolio
-npm install
-npm run dev
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
